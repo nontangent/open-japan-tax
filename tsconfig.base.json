@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@open-japan-tax/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@open-japan-tax/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@open-japan-tax/common": ["libs/common/src/index.ts"],
+      "@open-japan-tax/domain": ["libs/domain/src/index.ts"],
+      "@open-japan-tax/domain/*": ["libs/domain/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
